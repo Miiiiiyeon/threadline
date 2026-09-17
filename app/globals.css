@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cream text-ink;
+}
+
+.container-page {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.btn {
+  @apply inline-block px-5 py-3 bg-ink text-white text-sm tracking-wide uppercase hover:bg-accent transition-colors;
+}
+
+.btn-outline {
+  @apply inline-block px-5 py-3 border border-ink text-ink text-sm tracking-wide uppercase hover:bg-ink hover:text-white transition-colors;
+}
