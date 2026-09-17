@@ -53,13 +53,13 @@ alter table order_items enable row level security;
 
 -- Sample clothing catalog (10 products across a few categories)
 insert into products (name, description, price, category, sizes, image_url, stock) values
-('Essential Crewneck Tee', 'Heavyweight 100% cotton tee with a boxy fit. Everyday basic.', 1200, 'T-Shirts', 'S,M,L,XL', 'https://picsum.photos/seed/threadline-01/600/800', 150),
-('Oversized Graphic Tee', 'Relaxed fit tee with a minimal front print.', 1450, 'T-Shirts', 'S,M,L,XL', 'https://picsum.photos/seed/threadline-02/600/800', 120),
-('Classic Denim Jacket', 'Mid-wash denim jacket with button front and chest pockets.', 4200, 'Jackets', 'S,M,L,XL', 'https://picsum.photos/seed/threadline-03/600/800', 60),
-('Corduroy Overshirt', 'Lightweight corduroy shirt-jacket, wear buttoned or open.', 3600, 'Jackets', 'M,L,XL', 'https://picsum.photos/seed/threadline-04/600/800', 45),
-('Straight Fit Jeans', 'Rigid cotton denim, straight leg, mid rise.', 2800, 'Jeans', '28,30,32,34,36', 'https://picsum.photos/seed/threadline-05/600/800', 90),
-('Relaxed Cargo Pants', 'Six-pocket cargo pants in washed cotton twill.', 3100, 'Jeans', '28,30,32,34,36', 'https://picsum.photos/seed/threadline-06/600/800', 70),
-('Fleece Pullover Hoodie', 'Brushed-back fleece hoodie with kangaroo pocket.', 2600, 'Hoodies', 'S,M,L,XL', 'https://picsum.photos/seed/threadline-07/600/800', 100),
-('Zip-Up Hoodie', 'Midweight zip hoodie, ribbed cuffs and hem.', 2900, 'Hoodies', 'S,M,L,XL', 'https://picsum.photos/seed/threadline-08/600/800', 80),
-('Midi Wrap Dress', 'Soft jersey wrap dress with tie waist.', 3400, 'Dresses', 'XS,S,M,L', 'https://picsum.photos/seed/threadline-09/600/800', 55),
-('Canvas Low-Top Sneakers', 'Classic canvas sneakers with rubber sole.', 2500, 'Footwear', '38,39,40,41,42,43', 'https://picsum.photos/seed/threadline-10/600/800', 75);
+('Essential Crewneck Tee', 'Heavyweight 100% cotton tee with a boxy fit. Everyday basic.', 1200, 'T-Shirts', 'S,M,L,XL', '/placeholders/p1.png', 150),
+('Oversized Graphic Tee', 'Relaxed fit tee with a minimal front print.', 1450, 'T-Shirts', 'S,M,L,XL', '/placeholders/p2.png', 120),
+('Classic Denim Jacket', 'Mid-wash denim jacket with button front and chest pockets.', 4200, 'Jackets', 'S,M,L,XL', '/placeholders/p3.png', 60),
+('Corduroy Overshirt', 'Lightweight corduroy shirt-jacket, wear buttoned or open.', 3600, 'Jackets', 'M,L,XL', '/placeholders/p4.png', 45),
+('Straight Fit Jeans', 'Rigid cotton denim, straight leg, mid rise.', 2800, 'Jeans', '28,30,32,34,36', '/placeholders/p5.png', 90),
+('Relaxed Cargo Pants', 'Six-pocket cargo pants in washed cotton twill.', 3100, 'Jeans', '28,30,32,34,36', '/placeholders/p6.png', 70),
+('Fleece Pullover Hoodie', 'Brushed-back fleece hoodie with kangaroo pocket.', 2600, 'Hoodies', 'S,M,L,XL', '/placeholders/p7.png', 100),
+('Zip-Up Hoodie', 'Midweight zip hoodie, ribbed cuffs and hem.', 2900, 'Hoodies', 'S,M,L,XL', '/placeholders/p8.png', 80),
+('Midi Wrap Dress', 'Soft jersey wrap dress with tie waist.', 3400, 'Dresses', 'XS,S,M,L', '/placeholders/p9.png', 55),
+('Canvas Low-Top Sneakers', 'Classic canvas sneakers with rubber sole.', 2500, 'Footwear', '38,39,40,41,42,43', '/placeholders/p10.png', 75);
